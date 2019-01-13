@@ -1,0 +1,5 @@
+{
+    "version": 2,
+    "name": "next-mapbox-demo",
+    "builds": [{"src": "package.json", "use": "@now/static-build"}]
+}

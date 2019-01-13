@@ -15,6 +15,7 @@
     "scripts": {
         "dev": "next",
         "build": "next build",
+        "now-build": "next build && next export -o dist",
         "start": "next start",
         "prettier": "prettier --write \"**/*.{js,json,md,yml}\""
     },
